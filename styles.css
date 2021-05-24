@@ -1,5 +1,6 @@
 :root{
-    --primary-color:#c59eff;
+    --primary-color:#282121;
+    --branding-color:#c59eff;
     --box-shadow: 10px 10px 10px rgba(0,0,0,0.6)
     --secondary-color:#443b3b;
 
@@ -8,9 +9,12 @@
 body{
     background-image: url(../images/homepage.jpg);
 }
+.menu{
+    padding-left: 10px;
+}
 
 h2, h3{
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Poppins', sans-serif;
 }
 h1{
     font-family: 'Shadows Into Light', cursive;
@@ -18,20 +22,24 @@ h1{
     font-weight: bold;
     margin-bottom: 100px;
     margin-top: 20px;
-    color: cornflowerblue;
+    color:var(--primary-color);
 }
 
 h2 {
     margin-top: 10px;
-    background: var(--primary-color);
+    background: #441644;
     display: flex;
     justify-content: center;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px grey;
 }
+
 .projects{
     text-align: center;
 }
 h3{
     color: var(--primary-color);
+    
 }
 
 img{
@@ -40,6 +48,7 @@ img{
     display: flex;
     flex: 1;
     justify-content: center;
+    border: 1px solid grey;
 }
 
 a {
@@ -49,6 +58,7 @@ a {
 
 a:hover {
     text-decoration: solid;
+    color:plum;
 }
 
 .footer{
